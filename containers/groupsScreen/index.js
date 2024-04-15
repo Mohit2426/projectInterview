@@ -17,7 +17,6 @@ const GroupsScreen = () => {
   const [text, onChangeText] = useState("");
   const placeHolderText = "Name";
   const { groupData,dataforRender } = useSelector((state) => state?.loginReducer) || {};
-  console.log("🚀 ~ GroupsScreen ~ dataforRender:", dataforRender);
 
 
   const [data, setData] = useState(groupData);
